@@ -42,5 +42,6 @@ app.post("/events", async(req, res) => {
 });
 
 app.listen(4000, () => {
+    console.log("v5555");
     console.log("App Started on http://localhost:4000");
 })
